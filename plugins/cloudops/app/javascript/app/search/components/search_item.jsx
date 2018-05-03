@@ -17,4 +17,5 @@ export default ({item, term}) =>
         <SearchHighlight term={term} text={item.project_id}/>
       </Link>
     </td>
+    <td></td>
   </tr>

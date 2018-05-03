@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 module Cloudops
-  class ObjectsController < DashboardController
+  class ObjectsController < ApplicationController
     def index
+      # byebug
+      # result = services.networking.asr_validate('c2ba1970-2699-4ade-80c8-f89e2134afb1')
       page = (params[:page] || 1).to_i
       per_page = 30
 

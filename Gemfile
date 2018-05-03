@@ -26,6 +26,8 @@ gem 'high_voltage'
 gem 'simple-navigation' # Navigation menu builder
 gem 'font-awesome-sass'
 
+gem 'colorize'
+
 gem 'responders'
 
 # make it fancy with react
